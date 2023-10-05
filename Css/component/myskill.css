@@ -1,0 +1,29 @@
+.my-skills{
+    display: grid;
+    grid-template-columns: 20% 60%;
+    justify-content: center;
+}
+.my-skills-title{
+    margin: auto;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    background-color: rgba(255, 228, 196, 0.468);
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    border-radius: 40px;
+}
+.skill-item{
+    width: 17%;
+    border: 1px solid black;
+    text-align: center;
+    padding:2% 0;
+    background-color: white;
+    margin-bottom: 3%;
+}
+.skill-item img{
+    width: 30%;
+}

@@ -1,0 +1,43 @@
+.project{
+    display: grid;
+    grid-template-columns: 60% 25%;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.project-image{
+    margin-left:10%
+}
+.project-image img{
+    width: 80%;
+    border: 1px solid lightgrey;
+}
+.project-description{
+    background-color: rgba(255, 228, 196, 0.468);
+    margin-right:5%;
+    padding: 3%;
+    margin-bottom: 2%;
+    border-radius: 40px;
+}
+.project-right{
+    margin: auto;
+}
+.project-right img{
+    border: 1px solid lightgrey;
+}
+.project-description h2{
+    text-align: center;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 20% 20%;
+    gap: 5%;
+    justify-content: center;
+}
+.project button{
+    font-size: 20px;
+    background-color: rgb(38, 233, 247);
+}
+.project-description p{
+    font-style: italic;
+}

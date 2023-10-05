@@ -1,0 +1,17 @@
+.about-me{
+    display: grid;
+    grid-template-columns: 20% 60%;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.about{
+    margin:auto; 
+}
+.about-paragraph{
+    background-color:  rgba(255, 228, 196, 0.468);
+    padding: 5% 0;
+    border-radius: 40px;
+}
+.about-paragraph p{
+    margin:0 5%;
+}

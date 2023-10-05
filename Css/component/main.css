@@ -1,0 +1,34 @@
+.my-image{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 5%;
+    justify-content: space-between;
+    margin-top: 7%;
+    height: 90vh;
+}
+.my-image-left{
+    background-color: rgba(255, 228, 196, 0.468);
+    text-align: center;
+}
+.my-image-right{
+    margin: auto;
+}
+.my-image-right img{
+    width:65%;
+    height:60%;
+}
+.front-end{
+    margin-top: 5%;
+    font-size: 6vw
+}
+.kort-description{
+    font-size: 25px;
+    margin-top:30%
+}
+.view-more{
+    width: 20%;
+    height:7%;
+    font-size: 20px;
+    margin-bottom:10%;
+    background-color: rgb(38, 233, 247);
+}

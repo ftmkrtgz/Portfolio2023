@@ -1,0 +1,49 @@
+.contact{
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contact img{
+    width: 100%;
+    height: 100%; 
+}
+.contact-form{
+    height: 70%;
+    background-color:rgba(255, 228, 196, 0.468) ;
+    padding-left:4.2vw;
+    line-height: 3vw;
+    align-items: center;
+}
+#contact-subject, #contact-name, #contact-mail{
+    width:89%; 
+    height:2.8vw
+}
+#contact-explanation{
+    width: 89%;
+}
+.contact-form h4{
+    margin-left: 0;
+    font-size: 30px;
+}
+.contact-defn{
+    margin-top: 0;
+}
+.submit{
+    background-color: rgb(38, 233, 247);
+    font-size: 2vw;
+    margin-left: 28vw;
+    margin-top: 5px;
+    width: 9vw;
+    height: 3.5vw;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.contact-error {
+    display: none;
+    color: red;
+    text-align: center;
+    margin-top:0;
+    bottom: 0;
+}
