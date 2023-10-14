@@ -139,3 +139,9 @@ hr{
         width:37vw
     } 
 }
+
+@media all and (max-width:622px){
+    #navbar-list-hamburger{
+        height: 60%;
+    }
+}
