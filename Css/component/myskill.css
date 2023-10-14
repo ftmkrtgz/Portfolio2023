@@ -5,16 +5,16 @@
 }
 .my-skills-title{
     margin: auto;
+    margin-left: -15%;
 }
 .skills{
     display: flex;
     flex-wrap: wrap;
     gap: 2%;
     background-color: rgba(255, 228, 196, 0.468);
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-bottom: 2%;
+    padding:5% 5% 2% 5%;
     border-radius: 40px;
+    justify-content: center;
 }
 .skill-item{
     width: 17%;
@@ -26,4 +26,43 @@
 }
 .skill-item img{
     width: 30%;
+}
+.arrow-down{
+    display: none;   
+}
+.arrow-right{
+    display: inline-block;
+}
+
+@media all and (max-width:950px){
+    .skill-item{
+        width: 100px;
+    }
+    .my-skills{
+        grid-template-columns: 90%;
+        margin-bottom: 0px;
+    } 
+    .my-skills-title{
+        margin:0 auto;
+    }
+    .about-title{
+        margin-left:22px;
+    }
+    .my-skills-title h2{
+        margin-top:0px;
+        margin-bottom: 0px;
+    }
+    .arrow-right{
+        display: none;
+    }
+    .arrow-down{
+        display:block; 
+        text-align: center;
+    }
+}
+
+@media all and (max-width:950px){
+    .skills{
+        padding-bottom: 20px;
+    }
 }

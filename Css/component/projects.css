@@ -5,11 +5,9 @@
     height: 100vh;
     align-items: center;
 }
-.project-image{
-    margin-left:10%
-}
+
 .project-image img{
-    width: 80%;
+    width: 98%;
     border: 1px solid lightgrey;
 }
 .project-description{
@@ -19,10 +17,8 @@
     margin-bottom: 2%;
     border-radius: 40px;
 }
-.project-right{
-    margin: auto;
-}
 .project-right img{
+    width: 98%;
     border: 1px solid lightgrey;
 }
 .project-description h2{
@@ -40,4 +36,18 @@
 }
 .project-description p{
     font-style: italic;
+}
+
+@media all and (max-width:790px){
+    .buttons{
+        grid-template-columns: 30% 30%;
+    }
+}
+@media all and (max-width:620px){
+    .project{
+        grid-template-columns: 90%;
+    }
+    .project-right img{
+        display: none;
+    }
 }

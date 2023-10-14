@@ -29,3 +29,31 @@
     margin-bottom:10%;
     background-color: rgb(38, 233, 247);
 }
+.my-image-small{
+    display:none;
+}
+@media all and (max-width:950px){
+    .view-more{
+        width: 30%;
+    }
+}
+
+@media all and (max-width:620px){
+    .my-image{
+        grid-template-columns: 100%;
+    }
+    .my-image-small{
+        display:block;
+    }
+    .my-image-right{
+        display: none;
+    }
+    .my-image-small img{
+        width:65%;
+        height:60%;
+    }
+    .kort-description{
+        margin-top:8%;
+        font-size: 20px;
+    }
+}
