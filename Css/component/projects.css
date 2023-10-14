@@ -13,8 +13,8 @@
 }
 .project-description{
     background-color: rgba(255, 228, 196, 0.468);
-    margin-right:5%;
-    padding: 3%;
+    margin-right:2%;
+    padding: 1.5%;
     margin-bottom: 2%;
     border-radius: 40px;
 }
@@ -44,11 +44,20 @@
         grid-template-columns: 30% 30%;
     }
 }
+
 @media all and (max-width:620px){
     .project{
         grid-template-columns: 90%;
     }
     .project-right img{
         display: none;
+    }
+    .project-description{
+        margin-right:1%;
+    }
+}
+@media all and (max-width:350px){
+    .buttons{
+        grid-template-columns: 35% 35%;
     }
 }
