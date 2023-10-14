@@ -145,3 +145,9 @@ hr{
         height: 60%;
     }
 }
+
+@media all and (max-width:450px){
+    #navbar-list-hamburger{
+        height: 50%;
+    }
+}
