@@ -14,6 +14,7 @@
 .my-image-right img{
     width:65%;
     height:60%;
+    border: 1px solid grey;
 }
 .front-end{
     font-size: 6vw
